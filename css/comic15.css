@@ -1,0 +1,462 @@
+.comic__item {
+    display: flex;
+    justify-content: center;
+    height: 512px;
+    margin: 30px 0px;
+    position: relative;
+}
+
+.comic__item1 {
+    background: url('../img/comic15/1.jpg') no-repeat center;
+}
+
+.comic__item2 {
+    background: url('../img/comic15/2.png') no-repeat center;
+}
+
+.comic__item3 {
+    background: url('../img/comic15/3.png') no-repeat center;
+}
+
+.comic__item4 {
+    background: url('../img/comic15/4.png') no-repeat center;
+}
+
+.comic__item5 {
+    background: url('../img/comic15/5.png') no-repeat center;
+}
+
+.comic__item6 {
+    background: url('../img/comic15/6.png') no-repeat center;
+}
+
+.comic__item7 {
+    background: url('../img/comic15/7.png') no-repeat center;
+}
+
+.comic__item8 {
+    background: url('../img/comic15/8.png') no-repeat center;
+}
+
+.comic15__cloud {
+    display: flex;
+    position: relative;
+    z-index: 1000;
+}
+
+.comic15__cloud > img {
+    position: absolute;
+    z-index: -50;
+    height: 150px;
+    width: 300px;
+}
+
+.comic15__cloud > p {
+    position: absolute;
+    z-index: 1000;
+}
+
+.comic__item1 {
+    display: flex;
+}
+
+/* .comic15__cloud-1 > img {
+    height: 100px;
+    width: 200px;
+    transform: rotate(5deg);
+    display: none;
+} */
+
+.comic15__cloud-1 > p {
+    bottom: 60px;
+    left: -100px;
+    width: 200px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* .comic15__cloud-2 > img {
+    top: 100px;
+    left: 50px;
+    height: 100px;
+    width: 200px;
+    transform: rotate(5deg);
+} */
+
+.comic15__cloud-2 > p {
+    bottom: 105px;
+    left: 0px;
+    width: 100px;
+    color: #fff;
+}
+
+.comic15__cloud-3 > img {
+    left: -250px;
+    top: 40px;
+    height: 70px;
+    width: 140px;
+}
+
+.comic15__cloud-3 > p {
+    top: 60px;
+    left: -220px;
+    width: 200px;
+}
+
+.comic15__cloud-4 > img {
+    top: 10px;
+    left: 10px;
+    height: 200px;
+    width: 240px;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-4 > p {
+    top: 45px;
+    left: 65px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.comic15__cloud-5 > img {
+    top: 240px;
+    right: 150px;
+    height: 50px;
+    width: 100px;
+}
+
+.comic15__cloud-5 > p {
+    top: 250px;
+    right: 25px;
+    width: 200px;
+}
+
+.comic15__cloud-6 > img {
+    top: 250px;
+    left: 150px;
+    height: 50px;
+    width: 100px;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-6 > p {
+    top: 260px;
+    left: 170px;
+    width: auto;
+}
+
+.comic15__cloud-7 > img {
+    top: 20px;
+    right: 140px;
+    height: 75px;
+    width: auto;
+}
+
+.comic15__cloud-7 > p {
+    top: 43px;
+    right: 160px;
+    width: auto;
+}
+
+.comic15__cloud-8 > img {
+    top: 20px;
+    left: 140px;
+    height: 75px;
+    width: auto;
+}
+
+.comic15__cloud-8 > p {
+    top: 43px;
+    left: 160px;
+    width: auto;
+}
+
+.comic15__cloud-9 > img {
+    top: 100px;
+    left: 70px;
+    width: auto;
+}
+
+.comic15__cloud-9 > p {
+    top: 140px;
+    left: 125px;
+    width: auto;
+}
+
+.comic15__cloud-10 > img {
+    top: 220px;
+    left: 70px;
+    height: 75px;
+    width: auto;
+}
+
+.comic15__cloud-10 > p {
+    top: 243px;
+    left: 90px;
+    width: auto;
+}
+
+.comic15__cloud-11 > img {
+    top: 280px;
+    left: 120px;
+    height: 75px;
+    width: auto;
+}
+
+.comic15__cloud-11 > p {
+    top: 303px;
+    left: 145px;
+    width: auto;
+}
+
+.comic15__cloud-12 > img {
+    top: 370px;
+    right: 140px;
+    height: 75px;
+    width: auto;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-12 > p {
+    top: 393px;
+    right: 163px;
+    width: auto;
+}
+
+.comic15__cloud-13 > img {
+    top: 10px;
+    right: 00px;
+    height: 100px;
+    width: 150px;
+    transform: scale(-1, 1);
+}
+
+.comic15__cloud-13 > p {
+    top: 25px;
+    right: 15px;
+}
+
+.comic15__cloud-14 > img {
+    top: 90px;
+    left: 100px;
+    height: 60px;
+    width: 100px;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-14 > p {
+    top: 95px;
+    left: 130px;
+}
+
+.comic15__cloud-15 > img {
+    top: 160px;
+    right: 100px;
+    height: 50px;
+    width: 120px;
+}
+
+.comic15__cloud-15 > p {
+    top: 170px;
+    right: 105px;
+    width: 100px;
+}
+
+.comic15__cloud-16 > img {
+    bottom: 30px;
+    right: -90px;
+    height: 170px;
+    width: 200px;
+}
+
+.comic15__cloud-16 > p {
+    bottom: 90px;
+    right: -50px;
+}
+
+.comic15__cloud-17 > img {
+    top: 10px;
+    right: 100px;
+    height: 100px;
+    width: 150px;
+}
+
+.comic15__cloud-17 > p {
+    top: 35px;
+    right: 120px;
+    width: 100px;
+}
+
+.comic15__cloud-18 > img {
+    top: 40px;
+    left: -60px;
+    height: 150px;
+    width: 200px;
+}
+
+.comic15__cloud-18 > p {
+    top: 70px;
+    left: -30px;
+    width: 150px;
+}
+
+.comic15__cloud-19 > img {
+    top: 230px;
+    right: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.comic15__cloud-19 > p {
+    top: 270px;
+    right: 40px;
+    width: 150px;
+}
+
+.comic15__cloud-20 > img {
+    bottom: 30px;
+    left: 30px;
+    height: 170px;
+    width: 200px;
+    transform: scale(1,-1);
+}
+
+.comic15__cloud-20 > p {
+    bottom: 70px;
+    left: 60px;
+    width: 150px;
+}
+
+.comic15__cloud-21 > img {
+    top: 10px;
+    right: -50px;
+    height: 200px;
+    width: 230px;
+}
+
+.comic15__cloud-21 > p {
+    top: 70px;
+    right: -30px;
+    width: 150px;
+}
+
+.comic15__cloud-22 > img {
+    bottom: 20px;
+    right: 40px;
+    height: 170px;
+    width: 200px;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-22 > p {
+    bottom: 85px;
+    right: 55px;
+    width: 150px;
+}
+
+.comic15__cloud-23 > img {
+    bottom: 20px;
+    left: 40px;
+    height: 170px;
+    width: 200px;
+}
+
+.comic15__cloud-23 > p {
+    bottom: 75px;
+    left: 70px;
+    width: 150px;
+}
+
+/* .comic15__cloud-24 > img {
+    bottom: 40px;
+    left: 60px;
+    height: 100px;
+    width: 170px;
+}
+
+.comic15__cloud-24 > p {
+    bottom: 75px;
+    left: 80px;
+    width: 150px;
+} */
+
+.comic15__cloud-25 > img {
+    top: 10px;
+    right: 100px;
+    height: 70px;
+    width: 150px;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-25 > p {
+    top: 30px;
+    right: 80px;
+    width: 150px;
+}
+
+.comic15__cloud-26 > img {
+    top: 60px;
+    left: 40px;
+    height: 170px;
+    width: 200px;
+}
+
+.comic15__cloud-26 > p {
+    top: 120px;
+    left: 85px;
+    width: 150px;
+}
+
+.comic15__cloud-27 > img {
+    top: 200px;
+    left: 80px;
+    height: 60px;
+    width: 100px;
+}
+
+.comic15__cloud-27 > p {
+    top: 215px;
+    left: 110px;
+    width: 150px;
+}
+
+.comic15__cloud-28 > img {
+    bottom: 120px;
+    right: 100px;
+    height: 60px;
+    width: 140px;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-28 > p {
+    bottom: 145px;
+    right: 60px;
+    width: 150px;
+}
+
+.comic15__cloud-30 > img {
+    bottom: 50px;
+    right: 50px;
+    height: 150px;
+    width: 200px;
+    transform: scale(-1,1);
+}
+
+.comic15__cloud-30 > p {
+    bottom: 100px;
+    right: 60px;
+    width: 150px;
+}
+
+.comic15__cloud-31 > img {
+    bottom: 120px;
+    left: 100px;
+    height: 80px;
+    width: 140px;
+}
+
+.comic15__cloud-31 > p {
+    bottom: 150px;
+    left: 120px;
+    width: 150px;
+}
